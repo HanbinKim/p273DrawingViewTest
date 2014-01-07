@@ -21,6 +21,7 @@
 		0056A0F2187BEE430048DAC8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0056A0D4187BEE420048DAC8 /* UIKit.framework */; };
 		0056A0FA187BEE430048DAC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0056A0F8187BEE430048DAC8 /* InfoPlist.strings */; };
 		0056A0FC187BEE430048DAC8 /* p273DrawingViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0056A0FB187BEE430048DAC8 /* p273DrawingViewTestTests.m */; };
+		0056A107187BEE5F0048DAC8 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0056A106187BEE5F0048DAC8 /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0056A0F7187BEE430048DAC8 /* p273DrawingViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "p273DrawingViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		0056A0F9187BEE430048DAC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0056A0FB187BEE430048DAC8 /* p273DrawingViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = p273DrawingViewTestTests.m; sourceTree = "<group>"; };
+		0056A105187BEE5F0048DAC8 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		0056A106187BEE5F0048DAC8 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				0056A0E6187BEE430048DAC8 /* ViewController.m */,
 				0056A0E8187BEE430048DAC8 /* Images.xcassets */,
 				0056A0D7187BEE420048DAC8 /* Supporting Files */,
+				0056A105187BEE5F0048DAC8 /* DrawingView.h */,
+				0056A106187BEE5F0048DAC8 /* DrawingView.m */,
 			);
 			path = p273DrawingViewTest;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				0056A0E7187BEE430048DAC8 /* ViewController.m in Sources */,
 				0056A0E1187BEE430048DAC8 /* AppDelegate.m in Sources */,
 				0056A0DD187BEE420048DAC8 /* main.m in Sources */,
+				0056A107187BEE5F0048DAC8 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
